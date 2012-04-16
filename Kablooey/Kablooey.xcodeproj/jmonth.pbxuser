@@ -1,0 +1,164 @@
+// !$*UTF8*$!
+{
+	09A013DF153B875A0031200C /* Kablooey */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Kablooey;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	09A013E8153B87790031200C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	09A013E9153B87790031200C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	09A013EA153B8A080031200C /* Kablooey.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {518, 715}}";
+			sepNavSelRange = "{399, 0}";
+			sepNavVisRange = "{248, 637}";
+		};
+	};
+	09A013EB153B8C150031200C /* Sprite.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {518, 464}}";
+			sepNavSelRange = "{287, 0}";
+			sepNavVisRange = "{0, 287}";
+		};
+	};
+	09A013EC153B8E1E0031200C /* Ship.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {518, 464}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRange = "{0, 375}";
+		};
+	};
+	09A013ED153B8EB20031200C /* STDHeader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {518, 464}}";
+			sepNavSelRange = "{153, 0}";
+			sepNavVisRange = "{0, 250}";
+		};
+	};
+	09A013EE153B91480031200C /* PlayerShip.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {518, 464}}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRange = "{0, 271}";
+		};
+	};
+	09A013EF153B92320031200C /* EnemyShip.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {518, 464}}";
+			sepNavSelRange = "{258, 0}";
+			sepNavVisRange = "{0, 274}";
+		};
+	};
+	09A013F0153B96E30031200C /* Projectile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 260}";
+		};
+	};
+	09A01409153B9FFD0031200C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 09A013F0153B96E30031200C /* Projectile.h */;
+	};
+	09A0140A153B9FFD0031200C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 09A013F0153B96E30031200C /* Projectile.h */;
+		name = "Projectile.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	A01FB69C0F07CF63000AAC7B /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 09A013DF153B875A0031200C /* Kablooey */;
+		activeTarget = A01FB6A80F07CF6E000AAC7B /* Kablooey */;
+		addToTargets = (
+		);
+		codeSenseManager = 09A013E9153B87790031200C /* Code sense */;
+		executables = (
+			09A013DF153B875A0031200C /* Kablooey */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 356229104;
+			PBXWorkspaceStateSaveDate = 356229104;
+		};
+		perUserProjectItems = {
+			09A01409153B9FFD0031200C /* PBXBookmark */ = 09A01409153B9FFD0031200C /* PBXBookmark */;
+			09A0140A153B9FFD0031200C /* PBXTextBookmark */ = 09A0140A153B9FFD0031200C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 09A013E8153B87790031200C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A01FB6A80F07CF6E000AAC7B /* Kablooey */ = {
+		activeExec = 0;
+		executables = (
+			09A013DF153B875A0031200C /* Kablooey */,
+		);
+	};
+	A01FB6C80F07CFCE000AAC7B /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {600, 464}}";
+			sepNavSelRange = "{693, 0}";
+			sepNavVisRange = "{0, 754}";
+		};
+	};
+}
