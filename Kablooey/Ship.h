@@ -24,3 +24,4 @@ protected:
 	int Damage;
 	float Speed;
 };
+

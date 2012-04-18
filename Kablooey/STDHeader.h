@@ -9,8 +9,13 @@
 
 #pragma once
 
-#include <Sprite.hpp>
 #include <SFML/Graphics.hpp>
-#include <Clock.hpp>
+#include <SFML/System.hpp>
+#include <SFML/Window.hpp>
+#include "Globals.h"
 #include "Kablooey.h"
-
+#include "Sprite.h"
+#include "Projectile.h"
+#include "Ship.h"
+#include "PlayerShip.h"
+#include "EnemyShip.h"
