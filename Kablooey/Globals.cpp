@@ -4,3 +4,8 @@
 sf::Rect<float> Globals::Viewport1;
 sf::Rect<float> Globals::Viewport2;
 sf::Rect<float> Globals::ViewportFull;
+int Globals::playerStats::playerDamage = 10;
+int Globals::playerStats::playerHealth = 100;
+int Globals::playerStats::playerSpeed = 10;
+string Globals::playerStats::player1Sprite = "DirectionArrowSprite";
+string Globals::playerStats::plater2Sprite = "DirectionArrowSprite";

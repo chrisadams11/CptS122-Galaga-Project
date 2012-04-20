@@ -6,8 +6,11 @@
  *  Copyright 2012 __MyCompanyName__. All rights reserved.
  *
  */
+#pragma once
 
 #include "STDHeader.h"
+#include "Globals.h"
+#include "Ship.h"
 
 class EnemyShip : public Ship
 {

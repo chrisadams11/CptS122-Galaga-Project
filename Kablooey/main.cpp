@@ -3,7 +3,13 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include "STDHeader.h"
-
+#include "Globals.h"
+#include "PlayerShip.h"
+#include "Kablooey.h"
+#include "Sprite.h"
+#include "Projectile.h"
+#include "Ship.h"
+#include "EnemyShip.h"
 ////////////////////////////////////////////////////////////
 /// Entry point of application
 ///

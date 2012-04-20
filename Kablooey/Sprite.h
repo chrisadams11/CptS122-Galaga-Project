@@ -6,8 +6,10 @@
  *  Copyright 2012 __MyCompanyName__. All rights reserved.
  *
  */
+#pragma once
 
 #include "STDHeader.h"
+#include "Globals.h"
 
 class Sprite : public sf::Sprite
 {
@@ -17,14 +19,18 @@ public:
 		this->IsAlive = true;
 	}
 
-	void Draw(sf::RenderTarget& Screen);
+	~Sprite()
+	{
+	}
+
+	void DrawSprite(sf::RenderTarget& Screen);
 	
 protected:
 	bool IsAlive;		//Does it get shown or not?
 };
 
-void Sprite::Draw(sf::RenderTarget& Screen)	//Checks if the sprite is alive before drawing it.
+void Sprite::DrawSprite(sf::RenderTarget& Screen)	//Checks if the sprite is alive before drawing it.
 {
 	if (this->IsAlive)
-		this->Draw(Screen);
+		Screen.Draw(*this);
 }
