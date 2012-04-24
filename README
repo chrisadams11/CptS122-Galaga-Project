@@ -1,3 +1,13 @@
 Hey guys! I just created this repository, and I've got SFML now but I haven't started building the game yet.
 
 I'll try to get you all added on here tomorrow so we can start work.
+
+INSTRUCTIONS FOR RUNNING KABLOOEY:
+
+Navigate through the folders to a folder called "WindowsGame1"
+
+Enter both "WindowsGame1" folders, and then open the 'bin' folder
+
+Open 'x86', then Release
+
+Inside, you should see a .exe with a 360 controller as the icon. Double click to run!
