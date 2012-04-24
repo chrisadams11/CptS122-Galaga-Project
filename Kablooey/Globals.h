@@ -12,7 +12,6 @@
 
 #include "STDHeader.h"
 
-
 using std::string;
 
 class Globals

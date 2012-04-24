@@ -60,7 +60,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="sfml-system-s.lib sfml-graphics-s-d.lib sfml-window-s-d.lib"
+				AdditionalDependencies="sfml-system-s.lib sfml-graphics-s.lib sfml-window-s.lib"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -195,6 +195,14 @@
 			</File>
 			<File
 				RelativePath="..\..\Kablooey.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\list.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\ObjectLists.h"
 				>
 			</File>
 			<File

@@ -15,7 +15,7 @@
 class Projectile : public Sprite
 {
 public:
-	Projectile();
+	Projectile(): Sprite() {}
 	~Projectile();
 	
 	void Update(float ElapsedSeconds);// Elapsed Seconds represents the time between each update.
@@ -25,6 +25,10 @@ protected:
 	sf::Vector2f Direction;
 	int Damage;
 };
+
+Projectile::~Projectile()
+{
+}
 
 void Projectile::Update(float ElapsedSeconds)
 {

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>BlimpSprite.png</Source>
+      <Name>BlimpSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\BlimpSprite.xnb</Output>
+      <Time>2012-04-21T23:33:05.7824369-07:00</Time>
+    </Item>
+    <Item>
+      <Source>FrigateSprite.png</Source>
+      <Name>FrigateSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\FrigateSprite.xnb</Output>
+      <Time>2012-04-21T23:33:09.8384441-07:00</Time>
+    </Item>
+    <Item>
+      <Source>CannonballSprite.png</Source>
+      <Name>CannonballSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\CannonballSprite.xnb</Output>
+      <Time>2012-04-22T00:30:34.2624809-07:00</Time>
+    </Item>
+    <Item>
+      <Source>TempTankSprite.png</Source>
+      <Name>TempTankSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\TempTankSprite.xnb</Output>
+      <Time>2012-04-22T16:38:20.7805934-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Ship.png</Source>
+      <Name>Player Ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Player Ship.xnb</Output>
+      <Time>2012-04-23T12:44:51.8718155-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Soldier.png</Source>
+      <Name>Enemy Soldier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Enemy Soldier.xnb</Output>
+      <Time>2012-04-23T12:44:22.559364-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sniper.png</Source>
+      <Name>Enemy Sniper</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Enemy Sniper.xnb</Output>
+      <Time>2012-04-23T12:44:04.322932-07:00</Time>
+    </Item>
+    <Item>
+      <Source>bip.wav</Source>
+      <Name>bip</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\bip.xnb</Output>
+      <Time>2012-04-23T16:57:31.8261107-07:00</Time>
+    </Item>
+    <Item>
+      <Source>chimes.wav</Source>
+      <Name>chimes</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\chimes.xnb</Output>
+      <Time>2012-04-23T17:13:46.5350819-07:00</Time>
+    </Item>
+    <Item>
+      <Source>chord.wav</Source>
+      <Name>chord</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\chord.xnb</Output>
+      <Time>2012-04-23T17:38:19.9360452-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Laser1.wav</Source>
+      <Name>Laser1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Laser1.xnb</Output>
+      <Time>2012-04-23T17:38:55.3257507-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Laser2.wav</Source>
+      <Name>Laser2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Laser2.xnb</Output>
+      <Time>2012-04-23T17:39:23.2573932-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ding.wav</Source>
+      <Name>ding</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\ding.xnb</Output>
+      <Time>2012-04-23T17:41:41.8682352-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tap.wav</Source>
+      <Name>tap</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\tap.xnb</Output>
+      <Time>2012-04-23T18:09:51.014737-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Kick 001.wav</Source>
+      <Name>Kick 001</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Kick 001.xnb</Output>
+      <Time>2012-04-23T18:22:50.1679426-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Snare 003.wav</Source>
+      <Name>Snare 003</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Snare 003.xnb</Output>
+      <Time>2012-04-23T18:24:41.5120365-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Snare 004.wav</Source>
+      <Name>Snare 004</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Snare 004.xnb</Output>
+      <Time>2012-04-23T18:24:45.452042-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Zap FX 007.wav</Source>
+      <Name>Zap FX 007</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Zap FX 007.xnb</Output>
+      <Time>2012-04-23T18:27:46.2268633-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Zap FX 006.wav</Source>
+      <Name>Zap FX 006</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Zap FX 006.xnb</Output>
+      <Time>2012-04-23T18:29:16.5378025-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Zap FX 005.wav</Source>
+      <Name>Zap FX 005</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Zap FX 005.xnb</Output>
+      <Time>2012-04-23T18:29:21.1278089-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Zap FX 004.wav</Source>
+      <Name>Zap FX 004</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Zap FX 004.xnb</Output>
+      <Time>2012-04-23T18:29:23.7778126-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Kick 002.wav</Source>
+      <Name>Kick 002</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Kick 002.xnb</Output>
+      <Time>2012-04-23T18:30:09.8357121-07:00</Time>
+    </Item>
+    <Item>
+      <Source>CataclysmicComets.mp3</Source>
+      <Name>CataclysmicComets</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\CataclysmicComets.xnb</Output>
+      <Extra>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\CataclysmicComets.wma</Extra>
+      <Time>2012-04-23T18:44:32.6806535-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Blip 007.wav</Source>
+      <Name>Blip 007</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Blip 007.xnb</Output>
+      <Time>2012-04-23T18:52:41.0117597-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Kick 005.wav</Source>
+      <Name>Kick 005</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Kick 005.xnb</Output>
+      <Time>2012-04-23T18:57:16.9977919-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Blip 013.wav</Source>
+      <Name>Blip 013</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Blip 013.xnb</Output>
+      <Time>2012-04-23T19:01:15.0411319-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Power On 002.wav</Source>
+      <Name>Power On 002</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Power On 002.xnb</Output>
+      <Time>2012-04-23T19:02:54.0099914-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Quick Bass 001.wav</Source>
+      <Name>Quick Bass 001</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Quick Bass 001.xnb</Output>
+      <Time>2012-04-23T19:04:15.8587143-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Tank.png</Source>
+      <Name>Enemy Tank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Enemy Tank.xnb</Output>
+      <Time>2012-04-23T19:10:55.2430459-07:00</Time>
+    </Item>
+    <Item>
+      <Source>VictoryFont.spritefont</Source>
+      <Name>VictoryFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\VictoryFont.xnb</Output>
+      <Time>2012-04-23T19:27:38.8092552-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T00:16:14-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T00:16:26-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T00:16:12-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-10-17T00:22:38.1467174-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

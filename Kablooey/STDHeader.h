@@ -13,4 +13,5 @@
 #include <SFML/Window.hpp>
 #include <iostream>
 #include <string>
+#include "list.h"
 using std::string;
