@@ -20,6 +20,8 @@ namespace WindowsGame1
                 if (!newBullet.IsAlive)
                 {
                     newBullet.InitializeProjectile(Damage, Direction, Speed, AssetName, StartPosition, IsEnemyProjectile);
+                    newBullet.LoadContent();
+                    newBullet.SpritePosition.X -= newBullet.SpriteSize.Width / 2;
                     NeedNew = false;
                     break;
                 }
@@ -30,6 +32,7 @@ namespace WindowsGame1
                 Projectile newBullet = new Projectile();
                 newBullet.InitializeProjectile(Damage, Direction, Speed, AssetName, StartPosition, IsEnemyProjectile);
                 newBullet.LoadContent();
+                newBullet.SpritePosition.X -= newBullet.SpriteSize.Width / 2;
                 Globals.ProjectileList.Add(newBullet);
             }
         }

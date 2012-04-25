@@ -1,31 +1,22 @@
-Content\BlimpSprite.xnb
-Content\FrigateSprite.xnb
-Content\CannonballSprite.xnb
-Content\TempTankSprite.xnb
 Content\Player Ship.xnb
 Content\Enemy Soldier.xnb
 Content\Enemy Sniper.xnb
-Content\bip.xnb
-Content\chimes.xnb
-Content\chord.xnb
-Content\Laser1.xnb
-Content\Laser2.xnb
-Content\ding.xnb
-Content\tap.xnb
-Content\Kick 001.xnb
-Content\Snare 003.xnb
-Content\Snare 004.xnb
 Content\Zap FX 007.xnb
-Content\Zap FX 006.xnb
-Content\Zap FX 005.xnb
-Content\Zap FX 004.xnb
-Content\Kick 002.xnb
 Content\CataclysmicComets.xnb
 Content\CataclysmicComets.wma
 Content\Blip 007.xnb
 Content\Kick 005.xnb
-Content\Blip 013.xnb
-Content\Power On 002.xnb
 Content\Quick Bass 001.xnb
 Content\Enemy Tank.xnb
 Content\VictoryFont.xnb
+Content\Player Shot.xnb
+Content\Enemy Shot.xnb
+Content\HUD Lower.xnb
+Content\HUD Side.xnb
+Content\Health Bar 6.xnb
+Content\Health Bar 0.xnb
+Content\Health Bar 1.xnb
+Content\Health Bar 2.xnb
+Content\Health Bar 3.xnb
+Content\Health Bar 4.xnb
+Content\Health Bar 5.xnb

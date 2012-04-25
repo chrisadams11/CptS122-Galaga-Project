@@ -42,10 +42,10 @@ namespace WindowsGame1
     {
         public static class PlayerStats
         {
-            public static int PlayerHealth = 1000;
+            public static int PlayerHealth = 500;
             public static int PlayerSpeed = 200;
             public static int PlayerDamage = 10;
-            public static int PlayerProjectileSpeed = 500;
+            public static int PlayerProjectileSpeed = 550;
         }
 
         public static class EnemyStats
@@ -60,7 +60,7 @@ namespace WindowsGame1
 
             public static class Sniper
             {
-                public static int SniperHealth = 20;
+                public static int SniperHealth = 10;
                 public static int SniperSpeed = 80;
                 public static int SniperDamage = 30;
                 public static int SniperProjectileSpeed = 400;
@@ -68,9 +68,9 @@ namespace WindowsGame1
 
             public static class Scout
             {
-                public static int ScoutHealth = 20;
+                public static int ScoutHealth = 30;
                 public static int ScoutSpeed = 80;
-                public static int ScoutChargingSpeed = 160;
+                public static int ScoutChargingSpeed = 260;
                 public static int ScoutDamage = 40;
             }
 
@@ -93,6 +93,15 @@ namespace WindowsGame1
         Director theDirector;
         Song CataclysmicComets;
         SpriteFont VictoryFont;
+
+        Sprite HUDLower1;
+        Sprite HUDLower2;
+        Sprite HUDSide1;
+        StatusBar HealthBar1;
+        StatusBar HealthBar2;
+
+        Texture2D Background;
+
         int VictoryCondition;
         int Timer = 1;
 
@@ -134,11 +143,19 @@ namespace WindowsGame1
             Globals.ViewPortHeight = (int)((Graphics.GraphicsDevice.Viewport.Height));
             Globals.ViewPortWidth = (int)((Graphics.GraphicsDevice.Viewport.Width));
 
-            Globals.ViewPort1 = Graphics.GraphicsDevice.Viewport;
-            Globals.ViewPort2 = Globals.ViewPort1;
-            Globals.ViewPort1.Width = Globals.ViewPort1.Width / 2;
-            Globals.ViewPort2.Width = Globals.ViewPort2.Width / 2;
-            Globals.ViewPort2.X = Globals.ViewPort1.Width + 1;
+            HUDLower1 = new Sprite();
+            HUDLower1.InitializeSprite("HUD Lower", Vector2.Zero);
+            HUDLower2 = new Sprite();
+            HUDLower2.InitializeSprite("HUD Lower", Vector2.Zero);
+
+            HUDSide1 = new Sprite();
+            HUDSide1.InitializeSprite("HUD Side", Vector2.Zero);
+
+            HealthBar1 = new StatusBar();
+            HealthBar1.InitializeStatusBar(new string[7] { "Health Bar 0", "Health Bar 1", "Health Bar 2", "Health Bar 3", "Health Bar 4", "Health Bar 5", "Health Bar 6" }, 7, Vector2.Zero, Constants.PlayerStats.PlayerHealth);
+
+            HealthBar2 = new StatusBar();
+            HealthBar2.InitializeStatusBar(new string[7] { "Health Bar 0", "Health Bar 1", "Health Bar 2", "Health Bar 3", "Health Bar 4", "Health Bar 5", "Health Bar 6" }, 7, Vector2.Zero, Constants.PlayerStats.PlayerHealth);
 
             theDirector.InitializeDirector();
 
@@ -155,10 +172,32 @@ namespace WindowsGame1
         protected override void LoadContent()
         {
             Globals.SpriteBatch = new SpriteBatch(GraphicsDevice);
-
             Globals.player1.LoadContent();
             Globals.player2.LoadContent();
 
+            HUDLower1.LoadContent();
+            HUDLower2.LoadContent();
+            HUDSide1.LoadContent();
+            HealthBar1.LoadContent();
+            HealthBar2.LoadContent();
+
+            Background = Globals.staticContentManager.Load<Texture2D>("Background");
+
+            Globals.ViewPort1.Height = Globals.ViewPortHeight - HUDLower1.SpriteSize.Height;
+            Globals.ViewPort1.Width = (Globals.ViewPortWidth - HUDSide1.SpriteSize.Width) / 2;
+
+            Globals.ViewPort2.X = (Globals.ViewPortWidth + HUDSide1.SpriteSize.Width) / 2;
+            Globals.ViewPort2.Width = Globals.ViewPortWidth - Globals.ViewPort2.X;
+            Globals.ViewPort2.Height = Globals.ViewPort1.Height;
+
+            HUDLower1.SpritePosition = new Vector2(0, Globals.ViewPortHeight - HUDLower1.SpriteSize.Height);
+            HUDLower2.SpritePosition = new Vector2(Globals.ViewPort2.X, Globals.ViewPortHeight - HUDLower1.SpriteSize.Height);
+            HUDSide1.SpritePosition = new Vector2(Globals.ViewPort2.X - HUDSide1.SpriteSize.Width, 0);
+            HealthBar1.SpritePosition = HUDSide1.SpritePosition;
+            HealthBar2.SpritePosition.X = HealthBar1.SpritePosition.X;
+            HealthBar2.SpritePosition.Y = HealthBar1.SpritePosition.Y + HealthBar1.SpriteSize.Height;
+            
+            
             foreach (EnemyShip Enemy in Globals.EnemyShipList1)
             {
                 Enemy.LoadContent();
@@ -203,6 +242,8 @@ namespace WindowsGame1
                     Enemy.UpdateEnemyShip(gameTime);
                 }
 
+                HealthBar1.UpdateStatusBar(Globals.player1.Health);
+                HealthBar2.UpdateStatusBar(Globals.player2.Health);
                 OldKeyboardState = KeyboardState;
                 Timer++;
                 base.Update(gameTime);
@@ -231,6 +272,8 @@ namespace WindowsGame1
             GraphicsDevice.Clear(Color.Black);
             Globals.SpriteBatch.Begin(SpriteBlendMode.AlphaBlend);
 
+            Globals.SpriteBatch.Draw(Background, Vector2.Zero, Color.White);
+
             Globals.player1.DrawSprite();
             Globals.player2.DrawSprite();
 
@@ -248,6 +291,12 @@ namespace WindowsGame1
             {
                 Enemy.DrawSprite();
             }
+
+            HUDLower1.DrawSprite();
+            HUDLower2.DrawSprite();
+            HUDSide1.DrawSprite();
+            HealthBar1.DrawSprite();
+            HealthBar2.DrawSprite();
 
             if (VictoryCondition != 0)
             {

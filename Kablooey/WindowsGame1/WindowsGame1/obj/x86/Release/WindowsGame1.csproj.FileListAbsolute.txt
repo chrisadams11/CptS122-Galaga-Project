@@ -1,37 +1,29 @@
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Snare 003.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Snare 004.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Quick Bass 001.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Zap FX 006.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Enemy Soldier.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Power On 002.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Zap FX 004.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\chimes.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\tap.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Blip 013.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Player Ship.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Kick 001.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Blip 007.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\CataclysmicComets.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Enemy Tank.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Laser2.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Kick 005.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Laser1.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Zap FX 007.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\bip.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\ding.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\CannonballSprite.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Zap FX 005.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\chord.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\BlimpSprite.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Kick 002.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\VictoryFont.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Enemy Sniper.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\CataclysmicComets.wma
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\TempTankSprite.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\FrigateSprite.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\WindowsGame1.exe
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\WindowsGame1.pdb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\ResolveAssemblyReference.cache
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\WindowsGame1.exe
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\WindowsGame1.pdb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Enemy Shot.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Player Shot.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\HUD Lower.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\HUD Side.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 6.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 1.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 3.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 4.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 2.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 0.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 5.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Background.xnb

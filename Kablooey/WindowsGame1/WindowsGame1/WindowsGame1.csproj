@@ -97,6 +97,7 @@
     <Compile Include="SniperShip.cs" />
     <Compile Include="SoldierShip.cs" />
     <Compile Include="Sprite.cs" />
+    <Compile Include="StatusBar.cs" />
     <Compile Include="Tankship.cs" />
   </ItemGroup>
   <ItemGroup>

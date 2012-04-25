@@ -49,7 +49,7 @@ namespace WindowsGame1
                         Vector2 BulletPosition = this.SpritePosition;
                         BulletPosition.X += (this.SpriteSize.Width / 2);
                         BulletPosition.Y += this.SpriteSize.Height;
-                        Functions.Create_Projectile(BulletPosition, Vector2.UnitY, Constants.EnemyStats.Tank.TankProjectileSpeed, this.Damage, "CannonballSprite", true);
+                        Functions.Create_Projectile(BulletPosition, Vector2.UnitY, Constants.EnemyStats.Tank.TankProjectileSpeed, this.Damage, "Enemy Shot", true);
                     }
 
                     if (this.ViewportNumber == 1)

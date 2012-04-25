@@ -114,12 +114,12 @@ namespace WindowsGame1
                     {
                         if (Globals.player2.SpritePosition.X > this.SpritePosition.X)
                         {
-                            this.Direction.X = .3f;
+                            this.Direction.X = .5f;
                         }
 
                         else if (Globals.player2.SpritePosition.X < this.SpritePosition.X)
                         {
-                            this.Direction.X = -.3f;
+                            this.Direction.X = -.5f;
                         }
 
                         if (Globals.player2.IsAlive &&

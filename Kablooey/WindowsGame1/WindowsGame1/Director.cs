@@ -79,13 +79,13 @@ namespace WindowsGame1
 
         public void UpdateDirector(int Ticks)
         {
-            if  (Ticks <= 4000 && (Ticks % 80 == 1) ||
-                (Ticks > 4000 && Ticks <= 8000 && (Ticks % 70 == 1)) ||
-                (Ticks > 8000 && Ticks <= 12000 && (Ticks % 60 == 1)) ||
-                (Ticks > 12000 && Ticks <= 16000 && (Ticks % 50 == 1)) ||
-                (Ticks > 16000 && Ticks <= 18000 && (Ticks % 40 == 1)) ||
-                (Ticks > 18000 && Ticks <= 22000 && (Ticks % 30 == 1)) ||
-                (Ticks > 22000 && (Ticks % 10 == 1)))
+            if  (Ticks <= 4000 && (Ticks % 30 == 1) ||
+                (Ticks > 4000 && Ticks <= 8000 && (Ticks % 20 == 1)) ||
+                (Ticks > 8000 && Ticks <= 12000 && (Ticks % 15 == 1)) ||
+                (Ticks > 12000 && Ticks <= 16000 && (Ticks % 10 == 1)) ||
+                (Ticks > 16000 && Ticks <= 18000 && (Ticks % 7 == 1)) ||
+                (Ticks > 18000 && Ticks <= 22000 && (Ticks % 4 == 1)) ||
+                (Ticks > 22000 && (Ticks % 1 == 1)))
             {
                 CreateRandomShip();
             }
@@ -95,7 +95,7 @@ namespace WindowsGame1
         {
             for (int iii = 1; iii < 3; iii++)
             {
-                int RandomShip = this.RNG.Next(1, 4);
+                int RandomShip = this.RNG.Next(1, 5);
 
                 if (RandomShip == 1)
                 {

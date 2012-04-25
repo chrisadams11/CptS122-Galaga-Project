@@ -8,11 +8,14 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Storage;
+
 namespace WindowsGame1
 {
     class PlayerShip: Ship
     {
         int FiringCooldown;
+        int HealingCooldown;
+
         public void InitializePlayerShip(int PlayerNumber)
         {
             this.Health = Constants.PlayerStats.PlayerHealth;
@@ -20,16 +23,17 @@ namespace WindowsGame1
             this.Speed = Constants.PlayerStats.PlayerSpeed;
             this.ProjectileSpeed = Constants.PlayerStats.PlayerProjectileSpeed;
             this.FiringCooldown = 0;
+            this.HealingCooldown = 2;
 
             if (PlayerNumber == 1)
             {
-                this.InitializeSprite("Player Ship", Globals.ViewPort1.Width / 2, (int) (Globals.ViewPortHeight * .9f));
+                this.InitializeSprite("Player Ship", Globals.ViewPortWidth * .2f, (int)(Globals.ViewPortHeight * .85f));
                 this.ViewportNumber = 1;
             }
 
             else if (PlayerNumber == 2)
             {
-                this.InitializeSprite("Player Ship", Globals.ViewPort2.X + (Globals.ViewPort2.Width / 2), (int)(Globals.ViewPortHeight * .9f));
+                this.InitializeSprite("Player Ship", Globals.ViewPortWidth * .8f, (int)(Globals.ViewPortHeight * .85f));
                 this.ViewportNumber = 2;
             }
         }
@@ -40,6 +44,16 @@ namespace WindowsGame1
 
             if (this.IsAlive)
             {
+                if (this.HealingCooldown > 0)
+                    this.HealingCooldown--;
+
+                if (this.HealingCooldown == 0 &&
+                    this.Health < Constants.PlayerStats.PlayerHealth)
+                {
+                    this.Health++;
+                    this.HealingCooldown = 2;
+                }
+
                 if (this.ViewportNumber == 1)
                 {
                     if (KeyboardState.IsKeyDown(Keys.W))
@@ -73,13 +87,13 @@ namespace WindowsGame1
                     }
 
                     if (this.FiringCooldown == 0 &&
-                        KeyboardState.IsKeyDown(Keys.Space) && !OldKeyboardState.IsKeyDown(Keys.Space))
+                        KeyboardState.IsKeyDown(Keys.Space))
                     {
                         Vector2 BulletPosition = this.SpritePosition;
                         BulletPosition.X += (this.SpriteSize.Width / 2);
-                        Functions.Create_Projectile(BulletPosition, -Vector2.UnitY, this.ProjectileSpeed, this.Damage, "CannonballSprite", false);
+                        Functions.Create_Projectile(BulletPosition, -Vector2.UnitY, this.ProjectileSpeed, this.Damage, "Player Shot", false);
                         Sounds.PlayerShootSound.Play(.5f, 0f, 0f); ;
-                        this.FiringCooldown = 15;
+                        this.FiringCooldown = 11;
                     }
 
                     else if (this.FiringCooldown != 0)
@@ -97,14 +111,14 @@ namespace WindowsGame1
                         this.SpritePosition.X = 0;
                     }
 
-                    if (this.SpritePosition.Y + this.SpriteSize.Height >= Globals.ViewPortHeight)
+                    if (this.SpritePosition.Y + this.SpriteSize.Height >= Globals.ViewPort1.Height)
                     {
-                        this.SpritePosition.Y = Globals.ViewPortHeight - this.SpriteSize.Height;
+                        this.SpritePosition.Y = Globals.ViewPort1.Height - this.SpriteSize.Height;
                     }
 
-                    else if (this.SpritePosition.Y <= 0)
+                    else if (this.SpritePosition.Y <= Globals.ViewPortHeight * .65f)
                     {
-                        this.SpritePosition.Y = 0;
+                        this.SpritePosition.Y = Globals.ViewPortHeight * .65f;
                     }
                 }
 
@@ -143,13 +157,13 @@ namespace WindowsGame1
 
 
                     if (this.FiringCooldown == 0 &&
-                        KeyboardState.IsKeyDown(Keys.Enter) && !OldKeyboardState.IsKeyDown(Keys.Enter))
+                        KeyboardState.IsKeyDown(Keys.Enter))
                     {
                         Vector2 BulletPosition = this.SpritePosition;
                         BulletPosition.X += (this.SpriteSize.Width / 2);
-                        Functions.Create_Projectile(BulletPosition, -Vector2.UnitY, this.ProjectileSpeed, this.Damage, "CannonballSprite", false);
+                        Functions.Create_Projectile(BulletPosition, -Vector2.UnitY, this.ProjectileSpeed, this.Damage, "Player Shot", false);
                         Sounds.PlayerShootSound.Play(.5f, 0f, 0f); ;
-                        this.FiringCooldown = 15;
+                        this.FiringCooldown = 11;
                     }
 
                     else if (this.FiringCooldown != 0)
@@ -169,14 +183,14 @@ namespace WindowsGame1
                         this.SpritePosition.X = Globals.ViewPort2.X;
                     }
 
-                    if (this.SpritePosition.Y + this.SpriteSize.Height >= Globals.ViewPortHeight)
+                    if (this.SpritePosition.Y + this.SpriteSize.Height >= Globals.ViewPort2.Height)
                     {
-                        this.SpritePosition.Y = Globals.ViewPortHeight - this.SpriteSize.Height;
+                        this.SpritePosition.Y = Globals.ViewPort2.Height - this.SpriteSize.Height;
                     }
 
-                    else if (this.SpritePosition.Y <= 0)
+                    else if (this.SpritePosition.Y <= Globals.ViewPortHeight * .65f)
                     {
-                        this.SpritePosition.Y = 0;
+                        this.SpritePosition.Y = Globals.ViewPortHeight * .65f;
                     }
                 }
             }
