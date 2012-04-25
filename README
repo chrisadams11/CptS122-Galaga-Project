@@ -6,8 +6,8 @@ INSTRUCTIONS FOR RUNNING KABLOOEY:
 
 Navigate through the folders to a folder called "WindowsGame1"
 
-Enter both "WindowsGame1" folders, and then open the 'bin' folder
+Enter both "WindowsGame1" folders, and then open the 'publish' folder
 
-Open 'x86', then Release
+Run "setup.exe", this will install the game on your computer
 
-Inside, you should see a .exe with a 360 controller as the icon. Double click to run!
+It should launch automatically after installing, but it will also be in your programs.
