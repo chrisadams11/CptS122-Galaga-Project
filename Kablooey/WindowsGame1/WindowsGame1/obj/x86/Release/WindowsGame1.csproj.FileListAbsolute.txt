@@ -9,12 +9,8 @@ C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\VictoryFont.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Enemy Sniper.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\CataclysmicComets.wma
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\WindowsGame1.exe
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\WindowsGame1.pdb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\ResolveAssemblyReference.cache
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\WindowsGame1.exe
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\WindowsGame1.pdb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Enemy Shot.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Player Shot.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\HUD Lower.xnb
@@ -27,7 +23,11 @@ C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 0.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Health Bar 5.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Content\Background.xnb
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\WindowsGame1.exe.manifest
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\WindowsGame1.application
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\WindowsGame1.exe.manifest
-C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\WindowsGame1.application
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Kablooey!.exe.manifest
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Kablooey!.application
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Kablooey!.exe
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Release\Kablooey!.pdb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\Kablooey!.exe.manifest
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\Kablooey!.application
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\Kablooey!.exe
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Release\Kablooey!.pdb

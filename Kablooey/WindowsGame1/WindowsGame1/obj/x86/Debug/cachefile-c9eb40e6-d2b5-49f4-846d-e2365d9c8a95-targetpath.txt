@@ -20,3 +20,4 @@ Content\Health Bar 2.xnb
 Content\Health Bar 3.xnb
 Content\Health Bar 4.xnb
 Content\Health Bar 5.xnb
+Content\Background.xnb

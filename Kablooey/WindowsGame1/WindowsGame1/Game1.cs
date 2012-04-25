@@ -218,10 +218,10 @@ namespace WindowsGame1
 
         protected override void Update(GameTime gameTime)
         {
+            KeyboardState = Keyboard.GetState();
+
             if (Globals.player1.IsAlive && Globals.player2.IsAlive)
             {
-                KeyboardState = Keyboard.GetState();
-
                 theDirector.UpdateDirector(Timer);
 
                 Globals.player1.UpdatePlayerShip(KeyboardState, OldKeyboardState, gameTime);
@@ -259,6 +259,31 @@ namespace WindowsGame1
                 else if (Globals.player2.IsAlive)
                 {
                     VictoryCondition = 2;
+                }
+
+                if (KeyboardState.IsKeyDown(Keys.F5))
+                {
+                    foreach (Projectile Bullet in Globals.ProjectileList)
+                    {
+                        Bullet.IsAlive = false;
+                    }
+
+                    foreach (EnemyShip Enemy in Globals.EnemyShipList1)
+                    {
+                        Enemy.IsAlive = false;
+                    }
+
+                    foreach (EnemyShip Enemy in Globals.EnemyShipList2)
+                    {
+                        Enemy.IsAlive = false;
+                    }
+
+                    Globals.player1.IsAlive = false;
+                    Globals.player2.IsAlive = false;
+                    
+
+                    Initialize();
+                    LoadContent();
                 }
             }
         }
@@ -301,10 +326,10 @@ namespace WindowsGame1
             if (VictoryCondition != 0)
             {
                 if (VictoryCondition == 1)
-                    Globals.SpriteBatch.DrawString(VictoryFont, "Player 1 Victory!", new Vector2(Globals.ViewPortWidth / 10f, Globals.ViewPortHeight / 3f), Color.Green);
+                    Globals.SpriteBatch.DrawString(VictoryFont, "Player 1 Victory! \r\nF5 To Restart", new Vector2(Globals.ViewPortWidth / 10f, Globals.ViewPortHeight / 3f), Color.Green);
             
                 else if (VictoryCondition == 2)
-                    Globals.SpriteBatch.DrawString(VictoryFont, "Player 2 Victory!", new Vector2(Globals.ViewPortWidth / 10f, Globals.ViewPortHeight / 3f), Color.Green);
+                    Globals.SpriteBatch.DrawString(VictoryFont, "Player 2 Victory! \r\nF5 To Restart", new Vector2(Globals.ViewPortWidth / 10f, Globals.ViewPortHeight / 3f), Color.Green);
             }
 
             Globals.SpriteBatch.End();

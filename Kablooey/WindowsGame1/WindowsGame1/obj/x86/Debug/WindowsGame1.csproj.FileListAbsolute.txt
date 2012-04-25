@@ -26,3 +26,8 @@ C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Health Bar 5.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Health Bar 3.xnb
 C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Health Bar 2.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Background.xnb
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe.manifest
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.application
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe.manifest
+C:\Users\Chris\CptS122-Galaga-Project\Kablooey\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.application
